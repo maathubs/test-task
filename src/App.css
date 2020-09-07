@@ -1,0 +1,135 @@
+.App {
+  display: flex;
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  margin: 1vw;
+  /* border: 1px solid #ccc; */
+}
+.fadeContainer{
+  width: 100%;
+  margin: 1vw;
+  color: slategray;
+}
+.header {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  overflow-x: auto;
+}
+
+.column {
+  border: 1px solid #ccc;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18vh;
+  flex-direction: column;
+}
+
+.cell {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  border-top: 1px solid #ccc;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.add{
+  cursor: pointer;
+  text-decoration: none;
+}
+.cell-leaf {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  border-top: 1px solid #ccc;
+  padding-left: 35px;
+  cursor: pointer;
+}
+.logo {
+  /* background: #eee; */
+  width: 100px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100px;
+  /* margin-bottom: 10px; */
+  cursor: pointer;
+  text-align: center;
+
+}
+.logoadd {
+ 
+  width: 100px;
+  
+  height: 60px;
+  
+  cursor: pointer;
+  text-align: center;
+
+}
+.close{
+  cursor: pointer;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  width: 9vh;
+  height: 9vh;
+}
+.Backdrop {
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  /* left: 0; */
+  /* color:black; */
+  left: 25%;
+  margin: 0 auto;
+  top: 36px;
+  background-color: rgba(165, 154, 154, 0.5);
+}
+.close {
+  position: fixed;
+  left: 73%;
+  top: 36px;
+  background: none;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.close-col{
+
+    float: right;
+    background: white;
+    /* width: 3px; */
+    padding: 0px !important;
+    font-size: 16px;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+   background-color: none !important;
+  /* color: black; */
+}
